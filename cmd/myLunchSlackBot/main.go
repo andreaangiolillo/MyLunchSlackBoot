@@ -20,7 +20,7 @@ func newViper() error {
 }
 
 func main() {
-	if err := newViper; err != nil {
+	if err := newViper(); err != nil {
 		panic(fmt.Errorf("fatal error config file: %w", err))
 	}
 
