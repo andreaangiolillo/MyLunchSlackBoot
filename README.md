@@ -1,1 +1,1 @@
-# myLunchSlackBot
+# Bot
